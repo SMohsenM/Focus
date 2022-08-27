@@ -1,0 +1,14 @@
+{
+    "name": "Focus",
+    "version": "0.0.0.9",
+    "manifest_version": 3,
+    "description": "Focus will help you to focus on your work",
+    "web_accessible_resources": [{
+        "resources": ["inject.js"],
+        "matches": ["*://*/*"]
+    }],
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["main.js"]
+    }]
+}
